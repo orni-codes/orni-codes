@@ -191,12 +191,20 @@ def monogram(cx, cy, r, letter, color):
 
 def logo_or_fallback(cx, cy, r, project):
     """Try a local logo file first; fall back to a generated SVG monogram.
-    Never downloads or invents an image."""
+    Never downloads or invents an image.
+
+    project.json's "logo" path (e.g. "logos/counselx.png") is resolved
+    relative to the REPO ROOT (main/logos/counselx.png) — not relative to
+    any "projects/" subfolder. The logo file lives on `main`, next to
+    project.json; only the generated projects.svg output goes to the
+    separate `projects` branch. Embedding as base64 (below) is what makes
+    the final SVG work regardless of which branch it's viewed from — the
+    source PNG on `main` is read once, at generation time, and never
+    referenced by path in the output.
+    """
     logo_rel = project.get("logo")
     if logo_rel:
-        path = ROOT / "projects" / logo_rel if not str(logo_rel).startswith("projects/") else ROOT / logo_rel
-        # project.json stores paths like "logos/counselx.png" relative to projects/
-        candidate = ROOT / "projects" / logo_rel
+        candidate = ROOT / logo_rel
         if candidate.is_file():
             data = base64.b64encode(candidate.read_bytes()).decode()
             ext = candidate.suffix.lstrip(".").lower()
