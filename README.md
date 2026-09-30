@@ -18,3 +18,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orni-codes/orni-codes/output/github-contribution-grid-snake-dark.svg" />
   <img alt="Orni's GitHub contribution snake" src="https://raw.githubusercontent.com/orni-codes/orni-codes/output/github-contribution-grid-snake.svg" />
 </picture>
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/orni-codes/orni-codes/projects/projects.svg" alt="Projects" />
+</div>
