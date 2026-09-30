@@ -22,3 +22,23 @@
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/orni-codes/orni-codes/projects/projects.svg" alt="Projects" />
 </div>
+
+<br/>
+
+<div align="center">
+
+### LET'S CONNECT
+
+<a href="https://www.linkedin.com/in/ornibera/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.instagram.com/might_decode/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:beraorni@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+</div>
