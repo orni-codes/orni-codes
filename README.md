@@ -23,8 +23,6 @@
   <img width="100%" src="https://raw.githubusercontent.com/orni-codes/orni-codes/projects/projects.svg" alt="Projects" />
 </div>
 
-<br/>
-
 <div align="center">
 
 ### LET'S CONNECT
