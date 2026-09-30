@@ -1,0 +1,51 @@
+name: Generate projects showcase
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # once daily
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "project.json"
+      - "scripts/generate_projects.py"
+      - "projects/logos/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate projects.svg from the live GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_projects.py
+
+      - name: Stage only the generated SVG for deployment
+        run: |
+          mkdir -p dist_projects
+          cp projects.svg dist_projects/projects.svg
+
+      - name: Publish to the projects branch (skips the commit if nothing changed)
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: projects
+          build_dir: dist_projects
+          keep_history: false
+          allow_empty_commit: false
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,22 @@
+[
+  {
+    "repo": "orni-codes/counsel-X",
+    "name": "CounselX",
+    "logo": "logos/counselx.png"
+  },
+  {
+    "repo": "orni-codes/Adapt",
+    "name": "ADAPT",
+    "logo": "logos/adapt.png"
+  },
+  {
+    "repo": "orni-codes/digital-health-twin",
+    "name": "Digital Health Twin",
+    "logo": "logos/digital-health-twin.png"
+  },
+  {
+    "repo": "orni-codes/FiltR",
+    "name": "FiltR",
+    "logo": "logos/filtr.png"
+  }
+]
