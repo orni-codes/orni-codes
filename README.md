@@ -17,3 +17,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=orni-codes&background=0A101F&border=22D3EE&stroke=22D3EE&ring=22D3EE&fire=10B981&currStreakNum=A78BFA&sideNums=E2E8F0&currStreakLabel=64748B&sideLabels=64748B&dates=64748B&border_radius=12" />
   <img width="100%" alt="Orni's GitHub Streak" src="https://streak-stats.demolab.com/?user=orni-codes&background=F8FAFD&border=0891B2&stroke=0891B2&ring=0891B2&fire=10B981&currStreakNum=7C3AED&sideNums=0F172A&currStreakLabel=64748B&sideLabels=64748B&dates=64748B&border_radius=12" />
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orni-codes/orni-codes/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Orni's GitHub contribution snake" src="https://raw.githubusercontent.com/orni-codes/orni-codes/output/github-contribution-grid-snake.svg" />
+</picture>
