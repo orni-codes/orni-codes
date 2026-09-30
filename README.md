@@ -1,7 +1,7 @@
-## Hi there 👋
-# 💫 About Me:
-👋 Hi, I'm a B.Tech Student in Robotics & AI<br><br>Welcome to my GitHub profile! 🚀<br><br>🎓 About Me<br><br>🎓 Degree: B.Tech (2nd Year)<br>🏫 Institute: Institute of Engineering & Management (IEM), Newtown<br>🤖 Branch: Robotics & Artificial Intelligence<br>💡 Passionate about building interactive web experiences and exploring intelligent systems<br>
-<br/> 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <img src="./light.svg" alt="Orni's animated GitHub profile banner">
+</picture>
 <p align="left">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-backend-sand.vercel.app/api?username=orni-codes&show_icons=true&hide_rank=true&commits_year=2026&bg_color=0A101F&title_color=22D3EE&icon_color=10B981&text_color=E2E8F0&border_color=22D3EE&border_radius=12" />
