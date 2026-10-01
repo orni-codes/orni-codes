@@ -21,7 +21,7 @@ jobs:
           github_user_name: orni-codes
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#0891B2&color_dots=#ECE9F7,#C9B8FB,#A78BFA,#7C3AED,#5B21B6
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#22D3EE&color_dots=#2d3343,#5496a8,#7C3AED,#fa8bd3,##b8fbd2
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#22D3EE&color_dots=#2d3343,#5496a8,#7C3AED,#fa8bd3,#b8fbd2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
